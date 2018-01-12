@@ -44,7 +44,7 @@ public class TranverseBetree
 		tranversePostOrder_NonRecursive(top);
 	}
 	
-	static void tranversePreOrder_Recursive(BeTreeNode head)
+	public static void tranversePreOrder_Recursive(BeTreeNode head)
 	{
 		if (head == null)
 		{
@@ -101,7 +101,7 @@ public class TranverseBetree
 		}
 	}
 	
-	static void tranverseMidOrder_Recursive(BeTreeNode head)
+	public static void tranverseMidOrder_Recursive(BeTreeNode head)
 	{
 		if (head == null)
 			return;
