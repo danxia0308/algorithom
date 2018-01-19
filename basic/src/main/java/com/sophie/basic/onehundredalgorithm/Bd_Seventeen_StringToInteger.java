@@ -10,7 +10,8 @@ public class Bd_Seventeen_StringToInteger
 	
 	static void test()
 	{
-		
+		String str = "345";
+		System.out.print(stringToInteger(str));
 	}
 
 	static int stringToInteger(String str)
